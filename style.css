@@ -1,0 +1,85 @@
+.корпус{
+    width: 200px;
+    height: 120px;
+    margin-top: -5px;
+    background-color: rgb(17, 67, 17);
+    border-radius: 5% 15% 5% 5% / 5% 100% 5% 5%;
+}
+.крыша{
+    width: 195px;
+    height: 8px;
+    background-color: rgb(17, 67, 17);
+    border-radius: 5% 15% 5% 5% / 5% 100% 5% 5%;
+}
+.колесо1{
+    width: 50px;
+    height: 50px;
+    margin-top: -15px;
+    margin-left: 15px;
+    background-color: black;
+    border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
+}
+.колесо2{
+    width: 50px;
+    height: 50px;
+    margin-top: -51px;
+    margin-left: 140px;
+    background-color: black;
+    border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
+}
+.диск1{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(109, 109, 109);
+    position: absolute;
+    margin-top: -38px;
+    margin-left: 25px;
+    border-radius: 10% 10% 10% 10% / 10% 10% 10% 10%;
+    animation-name: rotate;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+.диск2{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(109, 109, 109);
+    position: absolute;
+    margin-top: -39px;
+    margin-left: 150px;
+    border-radius: 10% 10% 10% 10% / 10% 10% 10% 10%;
+    animation-name: rotate;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes rotate{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.окно1{
+    width: 20px;
+    height: 60px;
+    margin-top: -150px;
+    margin-left: 177px;
+    background-color: rgb(109, 209, 251);
+    position: absolute;
+    border-radius: 0% 80% 0% 0% / 0% 80% 0% 0%;
+}
+.окно2{
+    width: 40px;
+    height: 40px;
+    margin-top:  -150px;
+    margin-left: 70px;
+    background-color: rgb(109, 209, 251);
+    position: absolute;
+    border-radius: 15% 15% 15% 15% / 15% 15% 15% 15%;
+}
+.окно3{
+    width: 45px;
+    height: 40px;
+    margin-top:  -150px;
+    margin-left: 30px;
+    background-color: rgb(109, 209, 251);
+    position: absolute;
+    border-radius: 15% 15% 15% 15% / 15% 15% 15% 15%;
+}
